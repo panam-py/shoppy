@@ -1,6 +1,6 @@
 const express = require("express");
 const morgan = require("morgan");
-const dotenv = require("dotenv");
+// const dotenv = require("dotenv");
 const rateLimiter = require("express-rate-limit");
 const helmet = require("helmet");
 const mongoSanitize = require("express-mongo-sanitize");
@@ -15,7 +15,7 @@ const AppError = require("./utils/appError");
 const app = express();
 
 // SETTING UP ENVIRONMENT VARIABLES
-dotenv.config({ path: "./config.env" });
+// dotenv.config({ path: "./config.env" });
 
 // MIDDLEWARES
 
