@@ -1,5 +1,5 @@
 {
-  "name": "shop-app",
+  "name": "shoppy",
   "version": "1.0.0",
   "description": "A simple social media application API",
   "main": "server.js",
