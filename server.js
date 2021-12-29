@@ -1,8 +1,8 @@
 const app = require("./app");
 const mongoose = require("mongoose");
+const dotenv = require("dotenv");
 
 // SETTING UP ENVIRONMENT VARIABLES
-
 
 const PORT = process.env.PORT;
 let DB;
